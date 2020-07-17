@@ -12,6 +12,7 @@
 .header-photo img{
     width: 50%;
 }
+
 .header-photo{
     width: 100%;
     text-align: center;
@@ -46,6 +47,7 @@
     opacity: 0.6;
 }
 /* info */
+
 .info{
     display: flex;
     justify-content: center;
@@ -115,6 +117,20 @@
     font-family: monospace;
 }
 
+@media (max-width: 700px){
+    .skill{
+        margin-top: 0px;
+    }
+    .info-block{
+        display: block;
+    }
+    .header-photo img{
+        width: 65%;
+    }
+    .skill-skill h3{
+        margin-left: 15px;
+    }
+}
 /* footer */
 
 footer{
