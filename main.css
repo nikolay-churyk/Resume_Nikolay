@@ -127,8 +127,16 @@
     .header-photo img{
         width: 65%;
     }
-    .skill-skill h3{
+    /* .skill-skill h3{
         margin-left: 15px;
+    } */
+
+
+    .skill-text{
+        width: 30%;
+    }
+    .skill-skill{
+        width: 70%;
     }
 }
 /* footer */
