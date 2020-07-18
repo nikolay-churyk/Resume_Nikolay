@@ -75,6 +75,10 @@
 .email{
     width: 100%;
 }
+.email a{
+    text-decoration: none;
+    color: grey;
+}
 .year{
     width: 100%;
 }
