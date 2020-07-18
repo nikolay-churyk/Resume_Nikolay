@@ -45,6 +45,7 @@
 }
 .header-icon a:hover{
     opacity: 0.6;
+    color: darkblue;
 }
 /* info */
 
