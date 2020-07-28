@@ -179,7 +179,18 @@
     .skill-text .skill-p{
         color: black;
         font-family: monospace;
-        font-size: 17px;
+        font-size: 16px;
+    }
+
+    .skill-skill p{
+        color: grey;
+        font-family: monospace;
+        font-size: 14px;
+    }
+    .skill-skill ul li{
+        color: grey;
+        font-family: monospace;
+        font-size: 14px;
     }
 }
 /* footer */
