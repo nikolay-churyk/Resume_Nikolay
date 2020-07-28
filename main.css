@@ -47,6 +47,12 @@
     opacity: 0.6;
     color: darkblue;
 }
+@media (max-width: 700px){
+    .header-icon a{
+        font-size: 1.1rem;
+    }
+}
+
 /* info */
 
 .info{
@@ -82,13 +88,32 @@
 .year{
     width: 100%;
 }
-.info h3{
+
+.location .location-text{
     color: black;
     font-family: monospace;
+    font-size: 20px;
 }
-.info h4{
+.phone .location-text{
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
+.email .location-text{
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
+.year .location-text{
+    color: black;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.info p{
     color: grey;
     font-family: monospace;
+    font-size: 15px;
 }
 
 
@@ -110,16 +135,23 @@
 .skill-text{
     width: 20%;
 }
-.skill-text h3{
+.skill-text .skill-p{
     color: black;
     font-family: monospace;
+    font-size: 20px;
 }
 .skill-skill{
     width: 80%;
 }
-.skill-skill h3{
+.skill-skill p{
     color: grey;
     font-family: monospace;
+    font-size: 15px;
+}
+.skill-skill ul li{
+    color: grey;
+    font-family: monospace;
+    font-size: 15px;
 }
 
 @media (max-width: 700px){
